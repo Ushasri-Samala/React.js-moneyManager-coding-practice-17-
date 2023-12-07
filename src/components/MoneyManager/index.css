@@ -1,0 +1,115 @@
+/* Write your CSS here */
+.app-container {
+  padding: 50px;
+}
+.title-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  height: 150px;
+  border-radius: 30px;
+  padding: 10px 50px;
+  background-size: cover;
+}
+.header {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 28px;
+}
+.greetings {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+.type-name {
+  color: #06b6d4;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+}
+.transaction-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: 400px;
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #d7dfe9;
+  border-radius: 16px;
+}
+.form-header {
+  color: #334155;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+.label {
+  color: #7e858e;
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin-bottom: 8px;
+}
+.input {
+  color: #7e858e;
+  border-color: 1px solid #d7dfe9;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-bottom: 10px;
+  width: 300px;
+  outline: none;
+}
+.option-input {
+  color: #7e858e;
+  border-color: 1px solid #d7dfe9;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-bottom: 10px;
+  width: 300px;
+  outline: none;
+}
+.add-button {
+  background-color: #0b69ff;
+  color: white;
+  font-size: 14px;
+  font-family: 'Roboto';
+  border: none;
+  width: 60px;
+  height: 40px;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+.history-container {
+  padding: 20px;
+  height: 400px;
+  width: 600px;
+  border: 1px solid #d7dfe9;
+  border-radius: 16px;
+}
+.history-header {
+  color: #334155;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+.transaction-table {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.transaction-header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #d7dfe9;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.table-header-cell {
+  font-weight: 600;
+  color: #1e293b;
+  font-family: 'Roboto';
+}

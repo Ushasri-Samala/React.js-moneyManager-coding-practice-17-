@@ -1,0 +1,14 @@
+/* Write your CSS here */
+.table-cell {
+  color: #334155;
+  font-family: 'Roboto';
+}
+.delete-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.delete-img {
+  height: 15px;
+  width: 15px;
+}
